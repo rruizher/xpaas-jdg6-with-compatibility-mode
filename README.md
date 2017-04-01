@@ -7,3 +7,10 @@ Build image with
 ```
 docker build . -t image_name
 ```
+
+## New environment var for enabling compatibility mode
+Based on cache name you will have to add
+YOUCACHENAME_COMPATIBILITY_ENABLED="true"
+
+For the others possible params for configuring JDG caches see
+https://access.redhat.com/documentation/en-us/red_hat_jboss_middleware_for_openshift/3/html/red_hat_jboss_data_grid_for_openshift/reference#jdg-cache-environment-variables
